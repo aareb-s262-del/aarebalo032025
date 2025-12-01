@@ -87,6 +87,19 @@ body
     text-align: center;
 }
 
+#aifooter
+{
+    padding: 1rem;
+    background-color: aqua;
+    min-height: auto;
+}
+
+#aifooter.container
+{
+    min-height: auto;
+    text-align: center;
+}
+
 #subfooter{
     background-color: black;
     min-height: 10rem;
