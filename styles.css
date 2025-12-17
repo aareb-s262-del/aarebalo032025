@@ -44,7 +44,31 @@ body
 #pageheader nav
 {
     text-align: center;
+    
 }
+
+
+#pageheader nav ul
+{
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#pageheader nav ul li
+{
+border: 2px solid silver;
+padding: 1rem;
+margin: 2px;
+background-color: white;
+}
+
+#pageheader nav ul li:hover
+{
+    background-color: aliceblue;
+}
+
 
 #media{
     background-color: lightblue;
@@ -94,7 +118,7 @@ body
     min-height: auto;
 }
 
-#aifooter.container
+#aifooter .container
 {
     min-height: auto;
     text-align: center;
@@ -115,8 +139,17 @@ audio
     margin:auto;
 }
 
-@media screen and (min-width:650px)
-{
+@media screen and (min-width:650px){
+
+#pageheader nav ul{
+    margin-top: 2rem;
+}
+
+
+#pageheader nav ul li{
+    display: inline-block;
+}
+
 #pagecontent{background-color: goldenrod;}
 }
 
