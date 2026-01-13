@@ -5,4 +5,14 @@
 ### This is an H3
 ###### This is H6
 
-<!-- Italics -->
+<!-- Italics - two ways -->
+*This is italics*
+
+_This is italics_
+
+<!-- Bold/Strong two ways-->
+**This is bold**
+
+__This is bold__
+
+<!--  -->
