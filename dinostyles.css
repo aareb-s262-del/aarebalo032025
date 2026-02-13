@@ -1,0 +1,159 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+body
+{
+    background-color: black;
+}
+
+.container
+{
+    max-width: 75rem;
+    min-height: 10rem;
+    margin: auto;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+
+#pageheader{
+    background-color: black;
+    min-height: auto;
+    padding: .25rem;
+}
+
+#logo
+{
+    background-image: url(Images/Dinologo1.jpg);
+    width: 15.25rem;
+    height: 15.25rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 5px solid none;
+}
+
+#pageheader .container
+{
+    min-height: auto;
+}
+
+#pageheader nav
+{
+    text-align: center;
+    
+}
+
+
+#pageheader nav ul
+{
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#pageheader nav ul li
+{
+border: 2px solid silver;
+padding: 1rem;
+margin: 2px;
+background-color: white;
+}
+
+#pageheader nav ul li:hover
+{
+    background-color: aliceblue;
+}
+
+
+#media{
+    background-color: lightblue;
+    min-height: 10rem;
+    padding: 1rem;
+    background-image: url(Images/dragonbgc.png);
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+}
+#career{
+    background-color: black;
+    min-height: 10rem;
+    padding: 1rem;
+}
+#pagecontent{
+    background-color: black;
+    min-height: 10rem;
+    padding: 1rem;
+}
+#semester1{
+    background-color: black;
+    min-height: 10rem;
+    padding: 1rem;
+}
+#semester2{
+    background-color: black;
+    min-height: 10rem;
+    padding: 1rem;
+}
+#pagefooter{
+    background-color: black;
+    min-height: auto;
+    padding: 1rem;
+}
+
+#pagefooter .container
+{
+    background-color: white;
+    min-height: auto;
+    text-align: center;
+}
+
+#aifooter
+{
+    padding: 1rem;
+    background-color: aqua;
+    min-height: auto;
+}
+
+#aifooter .container
+{
+    min-height: auto;
+    text-align: center;
+}
+
+#subfooter{
+    background-color: black;
+    min-height: 10rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+audio
+{
+    border: 5px solid black;
+    background-color: black;
+    display: block;
+    margin:auto;
+}
+
+@media screen and (min-width:650px){
+
+#pageheader nav ul{
+    margin-top: 2rem;
+}
+
+
+#pageheader nav ul li{
+    display: inline-block;
+}
+
+#pagecontent{background-color: goldenrod;}
+}
+
+@media screen and (min-width:1000px)
+{
+#pagecontent{
+    background-color: purple;}
+}

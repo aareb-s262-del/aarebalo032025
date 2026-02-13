@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Antonio Arebalo - portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+        
+    <link id="stylelink" rel="stylesheet" href="dragonstyles.css">
+        <style>
+        </style>
     </head>
     <body>
     <!-- Begin Header -->
@@ -27,6 +30,45 @@
         </div>
     </header>
     <!-- End Header -->
+
+
+<select name="selestylesheet" id="selestylesheet" onchange="updateStylesheet ()">
+    <option value="dragonstyles.css">Dargon</option>
+    <option value="dinostyles.css">Dino Style</option>
+    <option value="">Lil Peep</option>
+    <option value="">Snake</option>
+    <option value="">TMM</option>
+</select>
+
+    <script>
+        // Dynamic Stylesheets
+        function changeStylesheet()
+        {
+               // Create a variable for the link object
+                let styleLink;
+                styleLink = document.querySelector('#stylelink');
+    
+    
+               // Test
+               //alert(stylelink)
+    
+            styleLink.href="snakestyles.css";
+        }
+    
+        function updateStylesheet()
+        {
+            let selStylesheet = document.querySelector('#selstylesheet');
+            let styleLink = document.querySelector('#stylelink');
+               // Test
+               //alert(selStylesheet.value);
+            stylelink.href = selStylesheet.value;
+        }
+    </script>
+
+
+
+
+
 
     <!-- Begin Media -->
     <section id="media"></section>
