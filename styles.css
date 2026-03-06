@@ -1,160 +1,158 @@
-
-html
-{
-    scroll-behavior: smooth;
+/* Mobile Styles */
+:root {
+  --primary-color: #ecd7b6;
+  --secondary-color: #fad8a3;
+  --tertiary-color: #f3c57c;
 }
 
-
-body
-{
-    background-color: black;
+html {
+  scroll-behavior: smooth;
 }
 
-.container
-{
-    max-width: 75rem;
-    min-height: 10rem;
-    margin: auto;
-    background-color: #fff;
-    padding: 1rem;
+body {
+  background-color: var(--tertiary-color);
 }
 
-
-#pageheader{
-    background-color: black;
-    min-height: auto;
-    padding: .25rem;
+.container {
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
 }
 
-#logo
-{
-    background-image: url(Images/dragonlogo.png);
-    width: 15.25rem;
-    height: 15.25rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 5px solid none;
+#pageheader {
+  background-color: black;
+  min-height: auto;
+  padding: 0.25rem;
 }
 
-#pageheader .container
-{
-    min-height: auto;
+#logo {
+  background-image: url(Images/dragonlogo.png);
+  width: 18.25rem;
+  height: 18.25rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 5px solid none;
+  margin: auto;
+  transition: all 2s;
 }
 
-#pageheader nav
-{
-    text-align: center;
-    
+#pageheader .container {
+  min-height: auto;
 }
 
-
-#pageheader nav ul
-{
-    background-color: none;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+#pageheader nav {
+  text-align: center;
 }
 
-#pageheader nav ul li
-{
-border: 2px solid silver;
-padding: 1rem;
-margin: 2px;
-background-color: white;
+#pageheader nav ul {
+  background-color: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-#pageheader nav ul li:hover
-{
-    background-color: aliceblue;
+#pageheader nav ul li {
+  border: 2px solid silver;
+  padding: 1rem;
+  margin: 2px;
+  background-color: white;
 }
 
-
-#media{
-    background-color: lightblue;
-    min-height: 10rem;
-    padding: 1rem;
-    background-image: url(Images/dragonbgc.png);
-    background-size: cover;
-    aspect-ratio: 16 / 9;
-}
-#career{
-    background-color: black;
-    min-height: 10rem;
-    padding: 1rem;
-}
-#pagecontent{
-    background-color: black;
-    min-height: 10rem;
-    padding: 1rem;
-}
-#semester1{
-    background-color: black;
-    min-height: 10rem;
-    padding: 1rem;
-}
-#semester2{
-    background-color: black;
-    min-height: 10rem;
-    padding: 1rem;
-}
-#pagefooter{
-    background-color: black;
-    min-height: auto;
-    padding: 1rem;
+#pageheader nav ul li:hover {
+  background-color: aliceblue;
 }
 
-#pagefooter .container
-{
-    background-color: white;
-    min-height: auto;
-    text-align: center;
+#media {
+  background-color: lightblue;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/dragonbgc.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
+}
+#career {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagecontent {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester1 {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester2 {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagefooter {
+  background-color: black;
+  min-height: auto;
+  padding: 1rem;
 }
 
-#aifooter
-{
-    padding: 1rem;
-    background-color: aqua;
-    min-height: auto;
+#pagefooter .container {
+  background-color: white;
+  min-height: auto;
+  text-align: center;
 }
 
-#aifooter .container
-{
-    min-height: auto;
-    text-align: center;
+#aifooter {
+  padding: 1rem;
+  background-color: aqua;
+  min-height: auto;
 }
 
-#subfooter{
-    background-color: black;
-    min-height: 10rem;
-    padding: 1rem;
-    text-align: center;
+#aifooter .container {
+  min-height: auto;
+  text-align: center;
 }
 
-audio
-{
-    border: 5px solid black;
-    background-color: black;
-    display: block;
-    margin:auto;
+#subfooter {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
 }
 
-@media screen and (min-width:650px){
+audio {
+  border: 5px solid black;
+  background-color: black;
+  display: block;
+  margin: auto;
+}
 
-#pageheader nav ul{
+/* Tablet View */
+
+@media screen and (min-width: 650px) {
+  #pageheader nav ul {
     margin-top: 2rem;
-}
+  }
 
+  #logo {
+    margin: 0;
+  }
 
-#pageheader nav ul li{
+  #pageheader nav ul li {
     display: inline-block;
+  }
+
+  #pagecontent {
+    background-color: goldenrod;
+  }
 }
 
-#pagecontent{background-color: goldenrod;}
-}
+/* Desktop View */
 
-@media screen and (min-width:1000px)
-{
-#pagecontent{
-    background-color: purple;}
+@media screen and (min-width: 1000px) {
+  #pagecontent {
+    background-color: #ecd7b6;
+  }
 }

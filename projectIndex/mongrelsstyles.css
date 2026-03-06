@@ -1,0 +1,274 @@
+:root
+{
+--color-primary: #A90201;
+/* ---color-secondary: #CAA948; */
+--color-tertiary: #D4D2D3;
+--font-primary: inherit;
+--color-a:#D50019;
+--color-b:#D4D3D7;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+font-family: inherit;
+padding: 0;
+margin: 0;
+}
+
+.container {
+background-color: transparent;
+min-height: 10rem;
+max-width: 120rem;
+padding: 1rem 3rem 1rem 3rem;
+margin: auto;
+}
+
+#pageheader {
+background-color: rgb(168, 17, 29);
+min-height: 200px;
+padding: 1rem;
+}
+
+#pagenav {
+background-color: rgb(0, 0, 0);
+min-height: 30px;
+padding: 1rem;
+text-align: center;
+color: var(---color-secondary);
+}
+
+#logo {
+background-color: #A79CCF;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-image: url(Images/MF.png);
+background-size: cover;
+border: 5px solid rgb(168, 17, 29);
+position: absolute;
+left: calc(50% - 75px);
+transition: all 2s;
+}
+
+#media {
+background-color: lightblue;
+min-height: 300px;
+padding: 1rem;
+background-image:url(Images/daysgone.png);
+background-size: cover;
+background-position:center left ;
+transition: all 2s;
+font-family: fantasy;
+}
+
+#career {
+background-color: aqua;
+min-height: 200px;
+padding: 1rem;
+font-family: fantasy;
+}
+
+#Introduction {
+background-color: #f3f3f3;
+background-image: url(Images/MCbg.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: right;
+min-height: 200px;
+padding: 1rem;
+font-family: fantasy;
+}
+
+#semester1 {
+background-color: rgb(255, 252, 251);
+background-image: url(Images/daysgonedeaconbg.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+min-height: 200px;
+padding: 1rem;
+font-family: fantasy;
+}
+
+#Semester2 {
+background-color: #8d6250;
+height: 500px;
+background-image: url(Images/daysgonebg2.png);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 200px;
+padding: 1rem;
+font-family: fantasy;
+}
+
+#Demos {
+    background-color: #d6d6d6;
+    min-height: 200px;
+    padding: 1rem;
+    font-size: large;
+    font-family: fantasy;
+    
+}
+
+#Projects
+{
+    background-color: rgb(7, 7, 7);
+    height: 400px;
+    background-image: url(Images/daysgonebg3.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position-x: center;
+    min-height: 200px;
+    padding: 1rem;
+    font-size: large;
+    font-family: fantasy;
+}
+
+
+
+#pagefooter {
+background-color: #84654d;
+min-height: 200px;
+padding: 1rem;
+text-align: center;
+}
+
+
+#Keysassignments{
+    background-color: var(---color-secondary);
+    font-family: fantasy;
+    min-height: 200px;
+    padding: 1rem;
+    text-align: center;
+    font-family: fantasy;
+}
+
+
+#subfooter {
+/* background-color: var(--color-tertiary); */
+background-color: #a11727;
+min-height: 200px;
+padding: 2rem;
+}
+
+#topanchor
+{
+height: 25px;
+width: 25px;
+padding: 1rem;
+border: 2px solid #6363C7;
+border-radius: 50%;
+position: fixed;
+right: 20px;
+bottom: 20px;
+background-color: #fafafa;
+}
+
+
+
+#footerlinks{
+    display: none;
+    background-color: #bfb4b4;
+    min-width: 200px;
+    font-family: fantasy;
+}
+
+#blockquote
+{
+    font-family: fantasy;
+}
+
+a{
+    color: rgb(155, 97, 101);
+    font-family: fantasy;
+}
+
+li{
+    color: rgb(168, 17, 29) ;
+    font-family: fantasy;
+}
+
+h2{
+    color: rgb(245, 245, 245);
+    color: rgb(91, 127, 135);
+    font-family: fantasy;
+}
+
+p
+{
+    color: #A90201;
+    
+}
+
+header
+{
+    color: #ff0000;
+}
+
+
+@media screen and (min-width:321px)
+{
+#career{
+    background-color: rgb(190, 138, 112);
+}
+}
+
+@media screen and (min-width:480px)
+{
+#career{
+    background-color: rgb(175, 127, 102);
+}
+}
+
+@media screen and (min-width:768px)
+{
+#career{
+    background-color: rgb(144, 108, 90);
+}
+#footerlinks{
+    display: flex;
+    justify-content: space-between;
+}
+#footerlinks{
+    display: block;
+    width: 250px;
+}
+}
+
+@media screen and (min-width:1024px)
+{
+#career{
+    background-color: rgb(156, 112, 89);
+}
+#logo
+{
+    left: 25px;
+}
+
+}
+
+@media screen and (min-width:1200px)
+{
+#career{
+    background-color:  rgb(207, 145, 114);
+}
+#media 
+{
+height: 600px;
+}
+
+#Demos
+{
+    border: 6px solid lavender;
+}
+
+}
+h1,h2,p,header,li,a,button,option,select{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }

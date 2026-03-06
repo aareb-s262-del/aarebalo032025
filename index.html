@@ -1,74 +1,69 @@
 <!doctype html>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Antonio Arebalo - portfolio</title>
-        
-    <link id="stylelink" rel="stylesheet" href="dragonstyles.css">
-        <style>
-        </style>
-    </head>
-    <body>
+
+    <link id="stylelink" rel="stylesheet" href="dragonstyles.css" />
+    <style></style>
+  </head>
+  <body>
     <!-- Begin Header -->
     <header id="pageheader">
-        <div class="container"></div>
-        <div class="container">
-        <a href="index.html"><div id="logo"></div></a>
+      <div class="container"></div>
+      <div class="container">
+        <a href="https://lildino.netlify.app/"><div id="logo"></div></a>
         <nav id="topnav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#career">Career</a></li>
-                <li><a href="#semester1">Semester 1</a></li>
-                <li><a href="#semester2">Semester 2</a></li>
-                <li><a href="#aifooter">AI Tools</a></li>
-                <li><a href="worksamples.html">Work Samples</a></li>
-                <li><a href="certificates.html">Certificates</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#semester1">Semester 1</a></li>
+            <li><a href="#semester2">Semester 2</a></li>
+            <li><a href="#aifooter">AI Tools</a></li>
+            <li><a href="worksamples.html">Work Samples</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="#demos">Demos</a></li>
+          </ul>
         </nav>
-        </div>
+      </div>
     </header>
     <!-- End Header -->
 
-
-<select name="selestylesheet" id="selestylesheet" onchange="updateStylesheet ()">
-    <option value="dragonstyles.css">Dargon</option>
-    <option value="dinostyles.css">Dino Style</option>
-    <option value="">Lil Peep</option>
-    <option value="">Snake</option>
-    <option value="">TMM</option>
-</select>
+    <select
+      name="selestylesheet"
+      id="selestylesheet"
+      onchange="updateStylesheet()"
+    >
+      <option value="dragonstyles.css">Dargon</option>
+      <option value="dinostyles.css">Dino Style</option>
+      <option value="">Lil Peep</option>
+      <option value="">Snake</option>
+      <option value="">TMM</option>
+    </select>
 
     <script>
-        // Dynamic Stylesheets
-        function changeStylesheet()
-        {
-               // Create a variable for the link object
-                let styleLink;
-                styleLink = document.querySelector('#stylelink');
-    
-    
-               // Test
-               //alert(stylelink)
-    
-            styleLink.href="snakestyles.css";
-        }
-    
-        function updateStylesheet()
-        {
-            let selStylesheet = document.querySelector('#selstylesheet');
-            let styleLink = document.querySelector('#stylelink');
-               // Test
-               //alert(selStylesheet.value);
-            stylelink.href = selStylesheet.value;
-        }
+      // Dynamic Stylesheets
+      function changeStylesheet() {
+        // Create a variable for the link object
+        let styleLink;
+        styleLink = document.querySelector("#stylelink");
+
+        // Test
+        //alert(stylelink)
+
+        styleLink.href = "snakestyles.css";
+      }
+
+      function updateStylesheet() {
+        let selStylesheet = document.querySelector("#selstylesheet");
+        let styleLink = document.querySelector("#stylelink");
+        // Test
+        //alert(selStylesheet.value);
+        stylelink.href = selStylesheet.value;
+      }
     </script>
-
-
-
-
-
 
     <!-- Begin Media -->
     <section id="media"></section>
@@ -76,123 +71,173 @@
 
     <!-- Begin PageContent  -->
     <main id="pagecontent">
-        <div class="container">
+      <div class="container">
         <h1>Antonio Arebalo</h1>
         <h2>portfolio</h2>
         <blockquote>
-            &quot;I think that's what life is about, truly findin' yourself, and
-            then closin' your eyes, and dyin' in your sleep. - Juice WRLD&quot;
+          &quot;I think that's what life is about, truly findin' yourself, and
+          then closin' your eyes, and dyin' in your sleep. - Juice WRLD&quot;
         </blockquote>
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ab quos
-            rerum consectetur illum tempore corrupti, nulla accusamus laborum et
-            itaque a non, quidem iusto! Sit quas dicta asperiores necessitatibus
-            doloremque, sed similique hic ducimus ratione? Voluptatibus libero
-            dolorem quis vitae laudantium enim maiores earum, quasi sint ex eum
-            repellendus?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ab quos
+          rerum consectetur illum tempore corrupti, nulla accusamus laborum et
+          itaque a non, quidem iusto! Sit quas dicta asperiores necessitatibus
+          doloremque, sed similique hic ducimus ratione? Voluptatibus libero
+          dolorem quis vitae laudantium enim maiores earum, quasi sint ex eum
+          repellendus?
         </p>
-        </div>
+      </div>
     </main>
     <!-- End PageContent -->
 
     <!-- Begin Career -->
     <section id="career">
-        <div class="container">
+      <div class="container">
         <h2>Career</h2>
         <ul>
-            <li>Career Action Plan</li>
-            <li>Job Application</li>
-            <li>Letter of Introduction</li>
-            <li>References</li>
-            <li>Resume</li>
-            <li>Letter of Recommendation</li>
+          <li>
+            <a href="Career/career_action_plan.pdf">Career Action Plan</a>
+          </li>
+          <li><a href="Career/job_application.pdf">Job Application</a></li>
+          <li>Letter of Introduction</li>
+          <li>References</li>
+          <li>Resume</li>
+          <li>Letter of Recommendation</li>
         </ul>
-        </div>
+      </div>
     </section>
     <!-- End Career -->
 
     <!-- Begin Semester1 -->
     <section id="semester1">
-        <div class="container">
+      <div class="container">
         <h2>Semester 1</h2>
         <ul>
-            <li>
+          <li>
             <a href="Images/socialcontractposter.png">Social Contract Poster</a>
-            </li>
-            <li><a href="Images/wallpaper1.png">Desktop Wallpaper</a></li>
-            <li><a href="Images/dragonlogo.png">AI Portfolio Logo</a></li>
-            <li><a href="">Mask Image</a></li>
-            <li>
+          </li>
+          <li><a href="Images/wallpaper1.png">Desktop Wallpaper</a></li>
+          <li><a href="Images/dragonlogo.png">AI Portfolio Logo</a></li>
+          <li><a href="">Mask Image</a></li>
+          <li>
             <a href="Images/antonioarebalotheterminalnotes.pdf"
-                >Terminal Notes</a
+              >Terminal Notes</a
             >
-            </li>
+          </li>
         </ul>
-        </div>
+      </div>
     </section>
     <!-- End Semester1 -->
 
     <!-- Begin Semester2 -->
     <section id="semester2">
-        div class="container">
+      <div class="container">
         <h2>Semester 2</h2>
         <ul>
-            <li><a href="Demos/Flexbox001/flexbox_justify_content.html">FlexboxJC1</a></li>
-            <li><a href="Semester2/FlexboxJC3A/flexboxjc3a.html">FlexboxJC3A</a></li>
-            <li><a href="Semester2/FlexboxJC2/flexboxjc2.html">FlexboxJC2</a></li>
-            <li><a href="Semester2/FlexboxJC3B/flexboxjc3b.html">FlexboxJC3B</a></li>
-            <li><a href="Semester2/FlexboxASO/flexboxaso.html">FlexboxASO</a></li>
-            <li><a href="Semester2/FlexboxWAC/flexboxwac.html">FlexboxWAC</a></li>
+          <li>
+            <a href="Demos/Flexbox001/flexbox_justify_content.html"
+              >FlexboxJC1</a
+            >
+          </li>
+          <li>
+            <a href="Semester2/FlexboxJC3A/flexboxjc3a.html">FlexboxJC3A</a>
+          </li>
+          <li><a href="Semester2/FlexboxJC2/flexboxjc2.html">FlexboxJC2</a></li>
+          <li>
+            <a href="Semester2/FlexboxJC3B/flexboxjc3b.html">FlexboxJC3B</a>
+          </li>
+          <li><a href="Semester2/FlexboxASO/flexboxaso.html">FlexboxASO</a></li>
+          <li><a href="Semester2/FlexboxWAC/flexboxwac.html">FlexboxWAC</a></li>
+          <li>
+            <a href="Semester2/PhotoGallery/photogallery.html"
+              >Flexbox Photo Gallery</a
+            >
+          </li>
         </ul>
-        </div>
+      </div>
     </section>
     <!-- End Semester2 -->
+
+    <!-- Begin Demos -->
+    <section id="demos">
+      <div class="container">
+        <h2>Demos</h2>
+        <ul>
+          <li>
+            <a href="Demos/Flexbox001/justify_content_application.html"
+              >Flexbox001</a
+            >
+          </li>
+          <li><a href="Demos/Flexbox002/flexbox002.html">Flexbox002</a></li>
+          <li>
+            <a
+              href="Demos/Flexbox004/FlexboxAlignItemsLiveDemo/flexbox_align_items_live_demo.html"
+              >Flexbox004</a
+            >
+          </li>
+          <li><a href="Demos/Flexbox005/flexboxaso.html">Flexbox005</a></li>
+          <li><a href="Demos/Flexbox006/flexbox_wac2.html">Flexbox006</a></li>
+          <li><a href="Demos/FontAwesome/fontawesome.html">Font Awesome</a></li>
+          <li><a href="Demos/Markdown001/markdown001.md">Markdown001</a></li>
+          <li><a href="Demos/Markdown002/markdown002.md">Markdown002</a></li>
+          <li><a href="Demos/Nester/nester.html">Nester</a></li>
+          <li>
+            <a href="Demos/VSCodeExtensions/vscodextensions.html"
+              >VS Code Extensions</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Demos -->
+
+    <!-- Begin Demos -->
 
     <!-- TODO uncomment at the beginning of semester2 -->
 
     <!-- Begin Footer -->
     <section id="pagefooter">
-        <div class="container">
+      <div class="container">
         <nav>
-            <a href="https://chs.chusd.org/">CHS</a>
-            <a href="https://color.adobe.com/">Color Harmonies</a> |
-            <a href="https://portervilleusd.aeries.net/student/LoginParent.aspx"
+          <a href="https://chs.chusd.org/">CHS</a>
+          <a href="https://color.adobe.com/">Color Harmonies</a> |
+          <a href="https://portervilleusd.aeries.net/student/LoginParent.aspx"
             >Aeries</a
-            >
-            | <a href="https://classroom.google.com/h">Classroom</a> |
-            <a href="https://minga.io/">Minga</a> |
-            <a href="TerminalNotes/Notes/theterminalnotes.pdf">Terminal</a> |
-            <a href="GitAndGitHub/git.html">Git</a>
+          >
+          | <a href="https://classroom.google.com/h">Classroom</a> |
+          <a href="https://minga.io/">Minga</a> |
+          <a href="TerminalNotes/Notes/theterminalnotes.pdf">Terminal</a> |
+          <a href="GitAndGitHub/git.html">Git</a>
         </nav>
-        </div>
+      </div>
     </section>
     <!-- End Footer -->
 
     <!-- Begin AI Footer -->
     <section id="aifooter">
-        <div class="container">
+      <div class="container">
         <nav>
-            <a href="https://firefly.adobe.com/">Firelfly</a> |
-            <a href="https://suno.com/">Sonu</a> |
-            <a href="https://chatgpt.com/">ChatGPT</a> |
-            <a href="https://gemini.google.com/app">Gemini</a> |
-            <a href="https://copilot.microsoft.com/">Copilot</a> |
-            <a href="https://claude.ai/login?returnTo=%2F%3F">Claude</a> |
-            <a href="https://www.perplexity.ai/">Perplexity</a> |
-            <a href="https://notebooklm.google/">NotbookKLM</a>
+          <a href="https://firefly.adobe.com/">Firelfly</a> |
+          <a href="https://suno.com/">Sonu</a> |
+          <a href="https://chatgpt.com/">ChatGPT</a> |
+          <a href="https://gemini.google.com/app">Gemini</a> |
+          <a href="https://copilot.microsoft.com/">Copilot</a> |
+          <a href="https://claude.ai/login?returnTo=%2F%3F">Claude</a> |
+          <a href="https://www.perplexity.ai/">Perplexity</a> |
+          <a href="https://notebooklm.google/">NotbookKLM</a>
         </nav>
-        </div>
+      </div>
     </section>
     <!-- End AI Footer -->
 
     <!-- Begin SubFooter -->
     <section id="subfooter">
-        <div class="container">
+      <div class="container">
         <p>&copy; Arebalo Antonio 2025-2026</p>
         <audio
-            src="Audio/codingin308.mp3"
-            controls="controls"
-            loop="loop"
+          src="Audio/codingin308.mp3"
+          controls="controls"
+          loop="loop"
         ></audio>
 
         <!-- * More Robust Audio with Backup -->
@@ -202,8 +247,8 @@
                                 <source src="filename.ogg" type="audio/ogg">
                                 <source>
                             </audio> -->
-        </div>
+      </div>
     </section>
     <!-- End SubFooter -->
-    </body>
+  </body>
 </html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Antonio Arebalo - Portfolio</title>
+<!-- Stylesheets -->
+<link id="stylelink" rel="stylesheet" href="owlstyles.css">
+<!-- End of stylesheets -->
+
+<!-- Days Gone -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+<!-- Days Gone -->
+
+<!-- Snake Theme -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<!-- End of Snake Theme -->
+
+<!-- Dino Theme -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+<!-- End of Dino Theme -->
+
+
+<style>
+</style>
+</head>
+
+<!-- Named Anchor to navegate to the top -->
+<a name="top"></a>
+
+<!-- Begin Header -->
+   <header id="pageheader">
+       <div class="container"></div>
+       <div class="container">
+       <a href="https://lildino.netlify.app/"><div id="logo"></div></a>
+       <nav id="topnav">
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#career">Career</a></li>
+               <li><a href="#semester1">Semester 1</a></li>
+               <li><a href="#semester2">Semester 2</a></li>
+               <li><a href="#aifooter">AI Tools</a></li>
+               <li><a href="worksamples.html">Work Samples</a></li>
+               <li><a href="certificates.html">Certificates</a></li>
+               <li><a href="contactus.html">Contact Us</a></li>
+           </ul>
+       </nav>
+       </div>
+   </header>
+   <!-- End Header -->
+
+    <!-- <button onclick="changeStylesheet()">Snake Theme</button> -->
+
+
+    <select name="selstylesheet" id="selstylesheet" onchange="updateStylesheet()">
+        <option value="owlstyles.css">Owl Theme</option>
+        <option value="dinostyles.css">Dino Theme</option>
+        <option value="snakestyles.css">Lil Peep</option>
+        <option value="mongrelsstyles.css">Snake</option>
+        <option value="dragonstyles.css">Dragon Theme</option>
+    </select>
+
+
+    <script>
+        // Dynamic Stylesheets
+        function changeStylesheet()
+        {
+            // Create a variable for the link object
+            let styleLink;
+            styleLink = document.querySelector('#stylelink');
+
+            // Test
+            //alert(stylelink)
+
+
+            styleLink.href="snakestyles.css";
+        }
+
+
+        function updateStylesheet()
+        {
+            let selStylesheet = document.querySelector('#selstylesheet');
+            let styleLink = document.querySelector('#stylelink');
+            // Test
+            //alert(selStylesheet.value);
+            stylelink.href = selStylesheet.value;
+        }
+        
+    </script>
+
+
+
+<!-- end pagenav -->
+
+<!-- begin media -->
+<section id="media"></section>
+<!-- end media -->
+
+
+   <!-- Begin PageContent  -->
+   <main id="pagecontent">
+       <div class="container">
+       <h1>Antonio Arebalo</h1>
+       <h2>portfolio</h2>
+       <blockquote>
+           &quot;I think that's what life is about, truly findin' yourself, and
+           then closin' your eyes, and dyin' in your sleep. - Juice WRLD&quot;
+       </blockquote>
+       <p>
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ab quos
+           rerum consectetur illum tempore corrupti, nulla accusamus laborum et
+           itaque a non, quidem iusto! Sit quas dicta asperiores necessitatibus
+           doloremque, sed similique hic ducimus ratione? Voluptatibus libero
+           dolorem quis vitae laudantium enim maiores earum, quasi sint ex eum
+           repellendus?
+       </p>
+       </div>
+   </main>
+   <!-- End PageContent -->
+
+
+
+ <!-- Begin Career -->
+   <section id="career">
+       <div class="container">
+       <h2>Career</h2>
+       <ul>
+           <li><a href="Career/career_action_plan.pdf">Career Action Plan</a></li>
+           <li><a href="Career/job_application.pdf">Job Application</a></li>
+           <li>Letter of Introduction</li>
+           <li>References</li>
+           <li>Resume</li>
+           <li>Letter of Recommendation</li>
+       </ul>
+       </div>
+   </section>
+   <!-- End Career -->
+
+<!-- begin Introduction -->
+<main id="Introduction">
+<div class="container">
+<a name="Introduction"></a>
+<h2>Introduction</h2>
+<header> </header>
+</div>
+</main>
+<!-- end Introduction -->
+
+   <!-- Begin Semester1 -->
+   <section id="semester1">
+       <div class="container">
+       <h2>Semester 1</h2>
+       <ul>
+           <li>
+           <a href="Images/socialcontractposter.png">Social Contract Poster</a>
+           </li>
+           <li><a href="Images/wallpaper1.png">Desktop Wallpaper</a></li>
+           <li><a href="Images/dragonlogo.png">AI Portfolio Logo</a></li>
+           <li><a href="">Mask Image</a></li>
+           <li>
+           <a href="Images/antonioarebalotheterminalnotes.pdf"
+               >Terminal Notes</a
+           >
+           </li>
+       </ul>
+       </div>
+   </section>
+   <!-- End Semester1 -->
+
+<!-- Begin Semester2 -->
+   <section id="semester2">
+       <div class="container"></div>
+       <h2>Semester 2</h2>
+       <ul>
+           <li><a href="Demos/Flexbox001/flexbox_justify_content.html">FlexboxJC1</a></li>
+           <li><a href="Semester2/FlexboxJC3A/flexboxjc3a.html">FlexboxJC3A</a></li>
+           <li><a href="Semester2/FlexboxJC2/flexboxjc2.html">FlexboxJC2</a></li>
+           <li><a href="Semester2/FlexboxJC3B/flexboxjc3b.html">FlexboxJC3B</a></li>
+           <li><a href="Semester2/FlexboxASO/flexboxaso.html">FlexboxASO</a></li>
+           <li><a href="Semester2/FlexboxWAC/flexboxwac.html">FlexboxWAC</a></li>
+       </ul>
+       </div>
+   </section>
+   <!-- End Semester2 -->
+
+    <!-- TODO uncomment at the beginning of semester2 -->
+
+
+
+    <!-- Begin Footer -->
+    <section id="pagefooter">
+        <div class="container">
+        <nav>
+            <a href="https://chs.chusd.org/">CHS</a>
+            <a href="https://color.adobe.com/">Color Harmonies</a> |
+            <a href="https://portervilleusd.aeries.net/student/LoginParent.aspx"
+            >Aeries</a>| 
+            <a href="https://classroom.google.com/h">Classroom</a> |
+            <a href="https://minga.io/">Minga</a> |
+            <a href="TerminalNotes/Notes/theterminalnotes.pdf">Terminal</a> |
+            <a href="GitAndGitHub/git.html">Git</a>
+        </nav>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+
+
+
+<!-- Begin AI Footer -->
+   <section id="aifooter">
+       <div class="container">
+       <nav>
+           <a href="https://firefly.adobe.com/">Firelfly</a> |
+           <a href="https://suno.com/">Sonu</a> |
+           <a href="https://chatgpt.com/">ChatGPT</a> |
+           <a href="https://gemini.google.com/app">Gemini</a> |
+           <a href="https://copilot.microsoft.com/">Copilot</a> |
+           <a href="https://claude.ai/login?returnTo=%2F%3F">Claude</a> |
+           <a href="https://www.perplexity.ai/">Perplexity</a> |
+           <a href="https://notebooklm.google/">NotbookKLM</a>
+       </nav>
+       </div>
+   </section>
+   <!-- End AI Footer -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- begin subfooter -->
+<footer id="subfooter">
+<div class="container"></div>
+</footer>
+<!-- end subfooter -->
+
+
+<!-- begin demos -->
+<section id="Demos">
+    <div class="container">
+        <a name="Demos"></a>
+        <h2>Demos</h2>
+<ul>
+            <li><a href="Demos/BoxShodow/boxshadow.html">Box Shadow</a></li>
+            <li><a href="Demos/ButtonsEventListener/buttobeventlistener.html">Button event listener</a></li>
+            <li><a href="Demos/DevEvents/divevents.html">Dev Events</a></li>
+            <li><a href="Demos/EventListeners/eventlisteners.html">Event Listeners</a></li>
+            <li><a href="Demos/ExternalJavaScript/externaljavascript.html">External JavaScript</a></li>
+            <li><a href="Demos/ForLoop/forloop.html">For Loop</a></li>
+            <li><a href="Demos/ForLoop/dynamicforoolp.html">Dynamic Foroolp</a></li>
+            <li><a href="Demos/JavaScripdisplayCode/javascripdisplycode.html">JavaScrip displayCode</a></li>
+            <li><a href="Demos/JavaScriptBasics/javascriptbasics.html">JavaScriptBasics</a></li>
+            <li><a href="Demos/Objects/window/widowobject.html">Objects</a></li>
+            <li><a href="Demos/PrismJs/prismjs.html">PrismJs</a></li>
+            <li><a href="Demos/PrismJS2/prismjs2.html">PrismJS2</a></li>
+            <li><a href="Demos/Transform/transform.html">Transform</a></li>
+            <li><a href="Demos/Expressions/expressions.html">Expressions</a></li>
+            <li><a href="Demos/ConsoleObject/consoleobject.html">ConsoleObject</a></li>
+            <li><a href="Demos/ConsoleObject2/consoleobject2.html">ConsoleObject2</a></li>
+            <li><a href="Demos/KeyFramesFromto/keyframesforto.html">Keyframe Animations From To</a></li>
+            <li><a href="Demos/KeyFramesFromto/keyframesforto.html">Keyframes From To</a></li>
+            <li><a href="Demos/AnimationJavaScript/animationjavascript.html">JavaScript Rocket</a></li>
+            <li><a href="Demos/JavaScriptDynamicStylesheets/javascriptdynamicstylesheets.html">Dynamic Stylesheets</a></li>
+</ul>
+    </div>
+</section>
+<!-- end demos -->
+
+
+
+<!-- begin Projects -->
+<section id="Projects">
+<div class="container">
+<a name="Projects"></a>
+<h2>Projects</h2>
+<h3>⚡︎999⚡︎</h3>
+<ul>
+<li><a href="Projects/Magic8Ball/magic8ballv1.html">Magic 8 Ball</a></li>
+
+</ul>
+</div>
+</section>
+<!-- end Projects -->
+
+
+
+<!-- begin subfooter -->
+<footer id="subfooter">
+<div class="container">
+<div id="flexsubfooter">
+<div id="qoute">
+<h2>Final Thoughts</h2>
+<blockquote>
+    <a>I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.</a>
+</blockquote>
+<p>- Alexander the Great</p>
+</div>
+
+<div id="footerlinks"></div>
+<h2>Navigation</h2>
+<ul>
+<li><a href="#career">Career</a></li>
+<li><a href="#semester1">Semester1</a></li>
+<li><a href="#semester2">Semester 2</a></li> 
+<li><a href="#keyassigments">Key assignments</a></li>
+</ul>
+        </div>
+    </div>
+</footer>
+
+
+<div id="topanchor">
+    <a href="#top">Top</a>
+</div>
+
+
+<div id="snowyowlbg4"></div>
+
+
+</body>
+</html>

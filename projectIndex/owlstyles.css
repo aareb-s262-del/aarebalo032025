@@ -1,0 +1,272 @@
+:root
+{
+--color-primary: #A90201;
+---color-secondary: #CAA948;
+--color-tertiary: #D4D2D3;
+--font-primary: inherit;
+--color-a:#D50019;
+--color-b:#D4D3D7;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+font-family: inherit;
+padding: 0;
+margin: 0;
+}
+
+.container {
+background-color: transparent;
+min-height: 10rem;
+max-width: 120rem;
+padding: 1rem 3rem 1rem 3rem;
+margin: auto;
+}
+
+#pageheader {
+background-color: #3F518D;
+background-image: url(Images/winterforest2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-x: center;
+min-height: 200px;
+padding: 1rem;
+}
+
+#pagenav {
+background-color: white;
+min-height: 30px;
+padding: 1rem;
+text-align: center;
+color: var(---color-secondary);
+}
+
+#logo {
+background-color: #A79CCF;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-image: url(Images/owllogo1.png);
+background-size: cover;
+border: 5px solid #173662;
+position: absolute;
+left: calc(50% - 75px);
+transition: all 2s;
+}
+
+#media {
+background-color: lightblue;
+min-height: 300px;
+padding: 1rem;
+background-image: url(Images/snowowlbg1.png);
+background-size: cover;
+background-position:center left ;
+transition: all 2s;
+font-family: fantasy;
+}
+
+#career {
+background-color: aqua;
+height: 500px;
+background-image: url(Images/winterforest.png);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 200px;
+padding: 1rem;
+font-family: fantasy;
+}
+
+#Introduction {
+background-color: #AEE1D2;
+min-height: 200px;
+padding: 1rem;
+font-family: fantasy;
+}
+
+#semester1 {
+background-color: #B3ACF9;
+min-height: 200px;
+padding: 1rem;
+font-family: fantasy;
+}
+
+#Semester2 {
+background-color: rgb(255, 255, 255);
+background-image: url(Images/snowyowl4.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: center;
+min-height: 200px;
+padding: 1rem;
+font-family: fantasy;
+}
+
+#Demos {
+    background-color: #ffffff;
+    background-image: url(Images/snowyowlbg3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    min-height: 200px;
+    padding: 1rem;
+    font-size: large;
+    font-family: fantasy;
+    
+}
+
+#Projects
+{
+    background-color: lavender;
+    min-height: 200px;
+    padding: 1rem;
+    font-size: large;
+    font-family: fantasy;
+}
+
+
+
+
+#pagefooter {
+background-color: #32617B;
+min-height: 200px;
+padding: 1rem;
+text-align: center;
+}
+
+
+#Keysassignments{
+    background-color: var(---color-secondary);
+    font-family: fantasy;
+    min-height: 200px;
+    padding: 1rem;
+    text-align: center;
+    font-family: fantasy;
+}
+
+
+#subfooter {
+background-color: var(--color-tertiary);
+min-height: 200px;
+padding: 2rem;
+}
+
+#topanchor
+{
+height: 25px;
+width: 25px;
+padding: 1rem;
+border: 2px solid #6363C7;
+border-radius: 50%;
+position: fixed;
+right: 20px;
+bottom: 20px;
+background-color: #F1ECD1;
+}
+
+
+
+#footerlinks{
+    display: none;
+    min-width: 200px;
+    font-family: fantasy;
+}
+
+#blockquote
+{
+    font-family: fantasy;
+}
+
+a{
+    color: rgb(239, 155, 79);
+    font-family: fantasy;
+}
+
+li{
+    color: rgb(239, 155, 79);
+    font-family: fantasy;
+}
+
+h2{
+    color: rgb(239, 155, 79);
+    font-family: fantasy;
+}
+
+h3
+{
+    color: transparent;
+}
+
+
+
+@media screen and (min-width:321px)
+{
+#career{
+    background-color: magenta;
+}
+}
+
+@media screen and (min-width:480px)
+{
+#career{
+    background-color: #151228;
+}
+}
+
+@media screen and (min-width:768px)
+{
+#career{
+    background-color: #2D355C;
+}
+#footerlinks{
+    display: flex;
+    justify-content: space-between;
+}
+#footerlinks{
+    display: block;
+    width: 250px;
+}
+}
+
+@media screen and (min-width:1024px)
+{
+#career{
+    background-color: #BBAADA;
+}
+#logo
+{
+    left: 25px;
+}
+
+}
+
+@media screen and (min-width:1200px)
+{
+#career{
+    background-color: #53669F;
+}
+#media 
+{
+height: 600px;
+}
+
+#Demos
+{
+    border: 6px solid lavender;
+}
+
+}
+
+#snowyowlbg4
+{
+    width:200px ;
+    height:200px ;
+    background-image: url(Images/snowyowlbg4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 60px;
+    right: 176px;
+}
