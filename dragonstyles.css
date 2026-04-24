@@ -163,3 +163,10 @@ audio {
     background-color: #ecd7b6;
   }
 }
+
+.cinzel-uniquifier {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
