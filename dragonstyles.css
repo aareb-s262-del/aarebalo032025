@@ -28,18 +28,23 @@ body {
 }
 
 #logo {
-  background-image: url(Images/dragonlogo.png);
-  width: 18.25rem;
-  height: 18.25rem;
+  background-image: url(Images2/gorgo.jpg);
+  width: 13.25rem;
+  height: 13.25rem;
   background-size: contain;
   background-repeat: no-repeat;
   border: 5px solid none;
   margin: auto;
   transition: all 2s;
+  border-radius: 50%;
 }
 
 #pageheader .container {
   min-height: auto;
+  background-image: url(Images2/dino002.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
 #pageheader nav {
@@ -66,11 +71,13 @@ body {
 
 #media {
   background-color: lightblue;
-  min-height: 10rem;
+  /* min-height: 10rem; */
+  height: 80vh;
+  background-position: center center;
   padding: 1rem;
-  background-image: url(Images/dragonbgc.png);
+  background-image: url(Images2/bggorgo.png);
   background-size: cover;
-  aspect-ratio: 16 / 9;
+  /* aspect-ratio: 16 / 9; */
 }
 #career {
   background-color: black;
@@ -78,7 +85,7 @@ body {
   padding: 1rem;
 }
 #pagecontent {
-  background-color: black;
+  background-color: rgb(131, 173, 225);
   min-height: 10rem;
   padding: 1rem;
 }
@@ -152,7 +159,7 @@ audio {
   }
 
   #pagecontent {
-    background-color: goldenrod;
+    background-color: rgb(105, 150, 205);
   }
 }
 
@@ -160,13 +167,22 @@ audio {
 
 @media screen and (min-width: 1000px) {
   #pagecontent {
-    background-color: #ecd7b6;
+    background-color: rgb(80, 153, 242);
   }
 }
 
-.cinzel-uniquifier {
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
+.jim-nightshade-regular {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
   font-style: normal;
+}
+
+.nabla {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
 }
