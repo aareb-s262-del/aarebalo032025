@@ -99,6 +99,29 @@ body {
   min-height: 10rem;
   padding: 1rem;
 }
+#worksamples {
+  background-color: rgb(255, 255, 255);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#worksamples ul {
+  list-style-type: none;
+}
+#worksamples i {
+  color: red;
+}
+#certificates {
+  background-color: rgb(255, 255, 255);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates ul {
+  list-style-type: none;
+}
+
+#certificates i {
+  color: gold;
+}
 
 #demos {
   background-color: black;
